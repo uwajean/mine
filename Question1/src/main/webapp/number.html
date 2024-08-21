@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Dancer</title>
+<style type="text/css">
+body{
+ 		display: flex;
+ 		justify-content:center;	 
+ 		align-items: center;
+ 		background: black;
+ 		min-height:100vh;
+ 		flex-direction:column;
+ 		gap:30px;
+
+ 	}
+ 	  input{
+
+    width:120px;
+    height:40px;
+    padding:2px;
+   
+    text-align: center;
+    border:1px solid white;
+    border-radius:6px;
+    background:black;
+  box-shadow:2px 7px 30px white;
+  color: cyan;
+  border-right,left,top:none;
+
+ 
+
+  }
+  #button{
+    width:170px;
+    height:80px;
+    border:none;
+    background-color:darkblue;
+     color:white;
+     font-size:20px;
+    border-radius:8px;
+    margin-left:200px;
+    margin-top:100px;
+
+
+  }
+    #button:hover{
+     background-color:lightcyan;
+     color:blue;
+    }
+  hr{
+    background:white;
+    width:150%;
+    height:3px;
+    border: none;
+    margin-left:-90px;
+    magin-top:40px;
+  }
+    label{
+    color: white;
+    font-size:30px;
+  }
+  
+  
+   	  input{
+
+    width:120px;
+    height:40px;
+    padding:2px;
+   
+    text-align: center;
+    border:1px solid white;
+    border-radius:6px;
+    background:black;
+  box-shadow:2px 7px 30px white;
+  color: cyan;
+  border-right,left,top:none;
+
+ 
+
+  }
+  #button{
+    width:170px;
+    height:80px;
+    border:none;
+    background-color:darkblue;
+     color:white;
+     font-size:20px;
+    border-radius:8px;
+    margin-left:200px;
+    margin-top:100px;
+
+
+  }
+  hr{
+    background:white;
+    width:150%;
+    height:3px;
+    border: none;
+    margin-left:-90px;
+    magin-top:40px;
+  }
+    label{
+    color: white;
+    font-size:30px;
+  }
+</style>
+</head>
+<body>
+<form action='allow_user_enter_quadratic_equation' method='post'>
+       <label> ax<sup>2</sup>:</label><input type='number' name='a'>
+       <label> bx:</label><input type='number' name='b' required="" >
+       <label> c:</label> <input type='number' name='c' required="" >
+       <br><br><br>
+        <hr>
+        <input id="button" type='submit' value='Calculates'>
+        </form>
+</body>
+</html>
